@@ -62,7 +62,7 @@ ingress:
   path: /
   pathType: Prefix
   hosts:
-    - netdata.k8s.local
+    - netdata.app.publikum.io
   ## whole spec is going to be included into ingress spec.
   ## if you intend to use ingressClassName declaration, remove ingress.class from annotations
   # spec:
