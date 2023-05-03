@@ -87,7 +87,7 @@ restarter:
   schedule: "00 06 * * *"
   image:
     repository: bitnami/kubectl
-    tag: 1.25
+    tag: 1.20
     pullPolicy: Always
   restartPolicy: Never
   resources: {}
