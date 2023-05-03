@@ -58,7 +58,7 @@ ingress:
   enabled: true
   annotations:
       nginx.ingress.kubernetes.io/use-regex: "true"
-      nginx.ingress.kubernetes.io/rewrite-target: /$1
+      nginx.ingress.kubernetes.io/rewrite-target: /$2
   #   kubernetes.io/ingress.class: nginx
   #   kubernetes.io/tls-acme: "true"
   path: /netdata(/|$)(.*)
